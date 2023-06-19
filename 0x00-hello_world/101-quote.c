@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - A program that prints the size of various computer types
- * Return: 0 (Sucess)
+ * Return: 1 (Sucess)
  */
 int main(void)
 {
-	fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+	fputs(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
